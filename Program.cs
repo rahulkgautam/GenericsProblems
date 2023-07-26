@@ -7,20 +7,20 @@ namespace GenericsProblem
         static void Main(string[] args)
         {
             //TC_!
-            //float firstNumber = 20f;
-            //float secondNumber = 19f;
-            //float thirdNumber = 12f;
+            //string firstString = "xyz";
+            //string secondString = "abc";
+            //string thirdString = "def";
 
             //TC_2
-            //float firstNumber = 20f;
-            //float secondNumber = 39f;
-            //float thirdNumber = 10f;
+            //string firstString = "abc";
+            //string secondString = "xyz";
+            //string thirdString = "def";
 
             //TC_3
-            float firstNumber = 20f;
-            float secondNumber = 19f;
-            float thirdNumber = 40f;
-            Max.FindMax(firstNumber,secondNumber,thirdNumber);
+            string firstString = "abc";
+            string secondString = "def";
+            string thirdString = "xyz";
+            Max.FindMax(firstString, secondString, thirdString);
             
         }
     }

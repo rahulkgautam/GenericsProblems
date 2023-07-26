@@ -6,7 +6,7 @@ namespace GenericsProblem
 {
     class Max
     {
-        public static void FindMax(float first, float second, float third)
+        public static void FindMax(string first, string second, string third)
         {
             if (first.CompareTo(second) >= 0 && first.CompareTo(third) >= 0)
                 Console.WriteLine("{0} is max ",first);
