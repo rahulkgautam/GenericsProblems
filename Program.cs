@@ -21,7 +21,7 @@ namespace GenericsProblem
             int secondNumber = 20;
             int thirdNumber = 30;
             new Max<int>(firstNumber, secondNumber, thirdNumber);
-            
+
 
             //TC_!
             //float firstNumber = 40f;
@@ -37,7 +37,7 @@ namespace GenericsProblem
             //float firstNumber = 10f;
             //float secondNumber = 20f;
             //float thirdNumber = 30f;
-            //Max<float>.FindMax(firstNumber, secondNumber, thirdNumber);
+            //new Max<float>(firstNumber, secondNumber, thirdNumber);
 
             //TC_!
             //string firstString = "xyz";
