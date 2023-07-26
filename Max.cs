@@ -4,9 +4,9 @@ using System.Text;
 
 namespace GenericsProblem
 {
-    class Max
+    class Max<T> where T : IComparable<T>
     {
-        public static void FindMax(string first, string second, string third)
+        public static void FindMax(T first, T second, T third)
         {
             if (first.CompareTo(second) >= 0 && first.CompareTo(third) >= 0)
                 Console.WriteLine("{0} is max ",first);
