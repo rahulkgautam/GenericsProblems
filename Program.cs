@@ -6,55 +6,9 @@ namespace GenericsProblem
     {
         static void Main(string[] args)
         {
-            //TC_!
-            //int firstNumber = 40;
-            //int secondNumber = 20;
-            //int thirdNumber = 12;
-
-            //TC_2
-            //int firstNumber = 10;
-            //int secondNumber = 20;
-            //int thirdNumber = 12;
-
-            //TC_3
-            int firstNumber = 10;
-            int secondNumber = 20;
-            int thirdNumber = 30;
-            new Max<int>(firstNumber, secondNumber, thirdNumber);
-
-
-            //TC_!
-            //float firstNumber = 40f;
-            //float secondNumber = 20f;
-            //float thirdNumber = 12f;
-
-            //TC_2
-            //float firstNumber = 10f;
-            //float secondNumber = 20f;
-            //float thirdNumber = 12f;
-
-            //TC_3
-            //float firstNumber = 10f;
-            //float secondNumber = 20f;
-            //float thirdNumber = 30f;
-            //new Max<float>(firstNumber, secondNumber, thirdNumber);
-
-            //TC_!
-            //string firstString = "xyz";
-            //string secondString = "abc";
-            //string thirdString = "def";
-
-            //TC_2
-            //string firstString = "abc";
-            //string secondString = "xyz";
-            //string thirdString = "def";
-
-            //TC_3
-            string firstString = "abc";
-            string secondString = "def";
-            string thirdString = "xyz";
-            new Max<string>(firstString, secondString, thirdString);
-
+            int[] arr = { 112, 344, 433, 555, 748, 232 };
+            GenericsMaximum<int> generics = new GenericsMaximum<int>(arr);
+            generics.PrintMaxValue();
         }
     }
 }
